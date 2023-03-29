@@ -1,5 +1,4 @@
 import styles from "./FoodItemCard.module.css";
-import SVGInject from '@iconfu/svg-inject/src/svg-inject.min'
 
 export default function FoodItemCard({foodKind, foodTagText, foodTagColor, foodTitle, foodRatingText, foodPrice, foodDescription, foodImage,addButtonId, addButtonCounterText}) {
   return  <div className={styles.foodItemCard} id="food-item-card">
