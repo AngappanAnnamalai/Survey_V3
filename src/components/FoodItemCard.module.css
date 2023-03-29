@@ -1,192 +1,191 @@
 .foodKindIcon {
-  position: relative;
-  width: 1.13rem;
-  height: 1.13rem;
-  flex-shrink: 0;
+    position: relative;
+    width: 1.13rem;
+    height: 1.13rem;
+    flex-shrink: 0;
 }
+
 .foodTagText {
-  margin: 0;
-  position: relative;
-  font-weight: 500;
+    margin: 0;
+    position: relative;
+    font-weight: 500;
 }
 .foodAttributes,
 .foodTag {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 .foodTag {
-  border-radius: var(--br-8xs);
-  background-color: var(--color-yellowgreen);
-  width: 2.25rem;
-  height: 1.13rem;
-  flex-shrink: 0;
-  overflow: hidden;
-  padding: var(--padding-12xs) var(--padding-9xs);
-  box-sizing: border-box;
+    border-radius: var(--br-8xs);
+    height: 1.13rem;
+    padding: var(--padding-12xs) var(--padding-9xs);
+    box-sizing: border-box;
 }
 .foodAttributes {
-  gap: var(--gap-6xs);
-  color: var(--color-white);
-}
+    gap: var(--gap-6xs);
+    color: var(--color-white);
+  }
 .foodTitle {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-size: var(--font-size-base);
-  font-weight: 700;
-  font-family: inherit;
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-base);
+    font-weight: 700;
+    font-family: inherit;
 }
 .foodRatingStarIcon {
-  position: relative;
-  border-radius: var(--br-12xs-5);
-  width: 1.1rem;
-  height: 1.1rem;
-  flex-shrink: 0;
+    position: relative;
+    border-radius: var(--br-12xs-5);
+    width: 1.1rem;
+    height: 1.1rem;
+    flex-shrink: 0;
 }
 .foodRating {
-  display: flex;
-  flex-direction: row;
-  padding: 0 var(--padding-5xs) 0 var(--padding-12xs);
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-5xs);
-  font-size: var(--font-size-2xs);
+    display: flex;
+    flex-direction: row;
+    padding: 0 var(--padding-5xs) 0 var(--padding-12xs);
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-2xs);
 }
 .foodPrice {
-  margin: 0;
-  position: relative;
-  font-size: var(--font-size-sm);
-  font-weight: 600;
-  font-family: inherit;
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    font-family: inherit;
 }
 .foodDescription {
-  margin: 0;
-  align-self: stretch;
-  position: relative;
-  font-weight: 500;
-  color: var(--color-dimgray);
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+    color: var(--color-dimgray);
 }
 .foodInfo {
-  width: 12.69rem;
-  flex-shrink: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  padding: 0 var(--padding-mid) 0 0;
-  box-sizing: border-box;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: var(--gap-3xs);
+    width: 12.69rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--padding-mid) 0 0;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
 }
 .foodImageIcon,
 .vectorIcon {
-  position: relative;
-  flex-shrink: 0;
+    position: relative;
+    flex-shrink: 0;
 }
 .foodImageIcon {
-  border-radius: var(--br-3xs);
-  width: 8.38rem;
-  height: 8.38rem;
-  object-fit: cover;
-  z-index: 0;
+    border-radius: var(--br-3xs);
+    width: 8.38rem;
+    height: 8.38rem;
+    object-fit: cover;
+    z-index: 0;
+    background-color: lightgray;
 }
 .vectorIcon {
-  width: 0.69rem;
-  height: 0.09rem;
+    width: 0.69rem;
+    height: 0.09rem;
 }
 .addButtonCounterText {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 500;
-  font-family: inherit;
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
 }
 .vectorIcon1 {
-  position: relative;
-  width: 0.63rem;
-  height: 0.63rem;
-  flex-shrink: 0;
+    position: relative;
+    width: 0.63rem;
+    height: 0.63rem;
+    flex-shrink: 0;
 }
 .addButtonCounter {
-  margin: 0 !important;
-  position: absolute;
-  top: 7.39rem;
-  left: 1.14rem;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-crimson);
-  border: 1.5px solid var(--color-crimson);
-  box-sizing: border-box;
-  width: 6.03rem;
-  height: 1.91rem;
-  flex-shrink: 0;
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-9xs) var(--padding-smi) var(--padding-9xs)
-    var(--padding-2xs);
-  align-items: center;
-  justify-content: space-between;
-  z-index: 1;
+    margin: 0 !important;
+    position: absolute;
+    top: 7.39rem;
+    left: 1.14rem;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-crimson);
+    border: 1.5px solid var(--color-crimson);
+    box-sizing: border-box;
+    width: 6.03rem;
+    height: 1.91rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-9xs) var(--padding-smi) var(--padding-9xs)
+        var(--padding-2xs);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
 }
 .addButtonText {
-  margin: 0;
-  position: absolute;
-  top: 0.38rem;
-  left: 1.63rem;
-  font-size: var(--font-size-sm);
-  font-weight: 700;
-  font-family: var(--font-inter);
-  color: var(--color-crimson);
-  text-align: left;
+    margin: 0;
+    position: absolute;
+    top: 0.38rem;
+    left: 1.63rem;
+    font-size: var(--font-size-sm);
+    font-weight: 700;
+    font-family: var(--font-inter);
+    color: var(--color-crimson);
+    text-align: left;
 }
 .addButton {
-  border: 1.5px solid var(--color-crimson);
-  padding: 0;
-  background-color: var(--color-whitesmoke-100);
-  position: absolute;
-  margin: 0 !important;
-  top: 7.39rem;
-  left: 1.11rem;
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  width: 6.09rem;
-  height: 1.91rem;
-  flex-shrink: 0;
-  overflow: hidden;
-  z-index: 2;
+    border: 1.5px solid var(--color-crimson);
+    padding: 0;
+    background-color: var(--color-whitesmoke-100);
+    position: absolute;
+    margin: 0 !important;
+    top: 7.39rem;
+    left: 1.11rem;
+    border-radius: var(--br-3xs);
+    box-sizing: border-box;
+    width: 6.09rem;
+    height: 1.91rem;
+    flex-shrink: 0;
+    overflow: hidden;
+    z-index: 2;
 }
 .addButton:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 .addButton:active {
-  cursor: auto;
+    cursor: auto;
 }
 .foodImageButton {
-  width: 8.31rem;
-  flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  font-size: var(--font-size-base);
-  color: var(--color-white);
+    width: 8.31rem;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
 }
 .foodItemCard {
-  align-self: stretch;
-  border-radius: var(--br-mini);
-  background-color: var(--color-white);
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  padding: var(--padding-xl) var(--padding-base);
-  align-items: center;
-  justify-content: space-between;
-  text-align: left;
-  font-size: var(--font-size-xs);
-  color: var(--color-black);
-  font-family: var(--font-inter);
+    align-self: stretch;
+    border-radius: var(--br-mini);
+    background-color: var(--color-white);
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: var(--padding-xl) var(--padding-base);
+    margin-bottom: var(--padding-xl);
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    font-size: var(--font-size-xs);
+    color: var(--color-black);
+    font-family: var(--font-inter);
 }
